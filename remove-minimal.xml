@@ -419,7 +419,6 @@
 
     <remove-project name="android_system_bt"/>
     <remove-project name="android_system_nfc"/>
-    <remove-project name="android_system_update_engine"/>
 
 
     <!-- Remove from omni-caf.xml (forked CAF) -->
@@ -445,7 +444,7 @@
     <remove-project name="android_vendor_interfaces"/>
 
 
-    <!-- LAST: Add/Replace repos and particular directories needed by TWRP -->
-    <include name="twrp-extras.xml"/>
+    <!-- LAST: Add/Replace repos and particular directories needed by Pterodon Recovery -->
+    <include name="pterodon.xml"/>
 
 </manifest>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="Pterodon"
+            fetch="https://github.com/PterodonRecovery" />
+
+    <remove-project name="platform/bootable/recovery"/>
+    <project path="bootable/recovery" name="pterodon" remote="Pterodon" revision="master"/>
+    <project path="manifest" name="manifest" remote="Pterodon" revision="master"/>
+    
+</manifest>
